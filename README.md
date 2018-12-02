@@ -8,14 +8,12 @@ You can join the discord server for PeepMode [here](https://discord.gg/5vs2aps).
 ## Contributing
 If you want to contribute to this repository, please send me a PM on discord.
 
-
 ## Getting started
 1.  Download the latest release of this repository.
 2.  Watch the [tutorial series](https://www.youtube.com/playlist?list=PLDzri0UohfhqrfjMbGMNBRW05lhK0H12u) of jcraigk.
 
 ## Issues
 If you manage to find a bug during gameplay, submit an issue [here](https://github.com/satanja/PeepMode/issues). Clearly state what the bug is, and how you managed to come by it. If the issue is map dependent, please mention the map you found the bug on. 
-
 
 ## Project structure
 All the data to get started with creating a PeepMode map can be found here, i.e. the following files are included:
@@ -29,5 +27,5 @@ All the data to get started with creating a PeepMode map can be found here, i.e.
 ## Authors
 * Jcraigk (first author of the PeepMode maps, now inactive).
 * **[satanja](https://github.com/satanja)** - discord: PiVMaSTeR#2096
-
+* ktilkath
 

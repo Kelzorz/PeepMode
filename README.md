@@ -20,10 +20,13 @@ If you manage to find a bug during gameplay, submit an issue [here](https://gith
 ## Project structure
 All the data to get started with creating a PeepMode map can be found here, i.e. the following files are included:
 
+### src
 * `peepmode_text.txt` 
 * `peepvoid_titlescreen_generic.psd`
-* An example map with the _latest triggers_ (see releases), located in `/example/`
-* A map to test upgrade setting and resetting, located in `/testMap/` 
+* An example map with the _latest triggers_ (see releases), `example.SC2Map`
+
+### test
+* A map to test upgrade setting and resetting, located in `/testUpgradeMap/` 
 
 
 ## Authors

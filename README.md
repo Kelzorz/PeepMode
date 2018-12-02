@@ -23,6 +23,7 @@ All the data to get started with creating a PeepMode map can be found here, i.e.
 * `peepmode_text.txt` 
 * `peepvoid_titlescreen_generic.psd`
 * An example map with the _latest triggers_ (see releases), located in `/example/`
+* A map to test upgrade setting and resetting, located in `/testMap/` 
 
 
 ## Authors

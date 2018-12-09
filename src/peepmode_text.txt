@@ -34,7 +34,6 @@ HOW TO PLAY
 BASIC
 Compete in standard melee matches or sit back and observe
 Great way to practice, socialize, and improve your skill
-//Vote for your favorite maps at peepmode.com
 
 HOW TO WIN
 Beat your opponents in melee matches and make winning bets as a spectator
@@ -42,7 +41,3 @@ Beat your opponents in melee matches and make winning bets as a spectator
 ADVANCED
 See in-game Help (F12) for detailed instructions and list of commands
 See https://satanja.github.io/PeepMode for video tutorials and discussions
-
-470512647@qq.com
-
-https://www.battlenet.com.cn/login/zh/

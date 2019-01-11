@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Desc>
+    <Frame name="GameUI/UIContainer/FullscreenUpperContainer" type="Frame" file="GameUI">
+
+        <Frame type="MessageDisplay" name="ChatDisplay">
+            <MaxMessages val="64"/>
+            <MessageDuration val="0"/>
+            <FadeDuration val="5000"/>
+            <Style val="ChatDisplayInternational"/>
+            <AcceptsMouse val="false"/>
+            <BatchText val="true"/>
+            <Anchor side="Bottom" relative="$parent" pos="Max" offset="-5000"/>
+            <Anchor side="Left" relative="$parent" pos="Mid" offset="-5000"/>
+            <Anchor side="Right" relative="$parent" pos="Mid" offset="-5000"/>
+            <Width val="0"/>
+            <Height val="0"/>
+            <Visible val="false"/>
+        </Frame>
+
+    </Frame>
+</Desc>

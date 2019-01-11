@@ -1,0 +1,14 @@
+<StyleFile>
+  <Style name="StandardText" template="StandardExtendedTemplate" height="16" textcolor="#ColorWhite"/>
+  <Style name="HeaderText" template="HeaderExtendedTemplate" height="24" textcolor="#ColorWhite"/>
+
+  <Style name="StandardParagraphText" template="StandardText" hjustify="Left" vjustify="Top"/>
+  <Style name="HeaderCenterText" template="HeaderText" hjustify="Center" vjustify="Middle"/>
+
+  <Style name="ChatCinematic" template="InternationalTemplate" height="#FontSizeMedium" vjustify="Middle" textcolor="ffffff"/>
+
+  <Style name="NamePanelPlayerLeft" template="HeaderExtendedTemplate" height="#FontSizeMedium" hjustify="Right" vjustify="Top" textcolor="ffffff"/>
+  <Style name="NamePanelPlayerRight" template="HeaderExtendedTemplate" height="#FontSizeMedium" hjustify="Left" vjustify="Top" textcolor="ffffff"/>
+  <Style name="NamePanelSupplyLeft" template="HeaderExtendedTemplate" height="#FontSizeSmall" hjustify="Right" vjustify="Top" textcolor="ffffff"/>
+  <Style name="NamePanelSupplyRight" template="HeaderExtendedTemplate" height="#FontSizeSmall" hjustify="Left" vjustify="Top" textcolor="ffffff"/>
+</StyleFile>

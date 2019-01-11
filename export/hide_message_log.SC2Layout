@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Desc>
+    <Frame type="MessageLogDialog" name="GameUI/UIContainer/FullscreenUpperContainer/MessageLogDialog" file="GameUI">
+         <Frame type="Frame" name="BackgroundFrame">
+            <Frame type="HelpPanel" name="MessageLogPanel">
+                <Visible val="false"/>
+            </Frame>
+         </Frame>
+    </Frame>
+</Desc>

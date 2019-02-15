@@ -15,7 +15,7 @@ If you find a bug with the maps please leave a note on the bug-reports channel o
 If you have an idea for a feature to add to PeepMode please leave a note on the feature-suggestion channel of the [Discord](https://discord.gg/C4M6NBE).
 
 ### Contributing
-If you want to contribute to the development of PeepMode please contact the developers on the [Discord}(https://discord.gg/C4M6NBE).  Feel free to take a look at the open [issues](https://waffle.io/Kelzorz/PeepMode) flagged with "help wanted"
+If you want to contribute to the development of PeepMode please contact the developers on the [Discord](https://discord.gg/C4M6NBE).  Feel free to take a look at the open [issues](https://waffle.io/Kelzorz/PeepMode) flagged with "help wanted"
 
 ## Project structure
 All the data to for creating a PeepMode map can be found here:

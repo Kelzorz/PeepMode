@@ -23,11 +23,11 @@ All the data to for creating a PeepMode map can be found here:
 ### Files
 * `export` contains PeepMode dependency files
 * `reference` contains documentation
-*  `PeepMode.c` the Galaxy code of PeepMode
-*  `Troggermap.md` a list of PeepMode's functions
+..* `PeepMode.c` the Galaxy code of PeepMode
+..* `Troggermap.md` a list of PeepMode's functions
 * `src` contains the .SC2Map files for each map
-*  `Published` current ladder maps published on arcade
-*  `Deprecated` old ladder maps no longer supported (but may still be on arcade)
+..* `Published` current ladder maps published on arcade
+..* `Deprecated` old ladder maps no longer supported (but may still be on arcade)
 
 ### Other Documentation (Possibly Obsolete)
 * [tutorial series](https://www.youtube.com/playlist?list=PLDzri0UohfhqrfjMbGMNBRW05lhK0H12u) of jcraigk.

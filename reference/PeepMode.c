@@ -16877,7 +16877,7 @@ void gf_RefreshKickPlayerDialogforPlayer (int lp_intPlayer) {
         for ( ; ( (auto2604FF2B_ai >= 0 && lv_intTmpPlayer <= auto2604FF2B_ae) || (auto2604FF2B_ai < 0 && lv_intTmpPlayer >= auto2604FF2B_ae) ) ; lv_intTmpPlayer += auto2604FF2B_ai ) {
             if (((gv_recPlayers[lp_intPlayer].lv_boolPlayersIWantKicked[lv_intTmpPlayer] == false) && (gv_recPlayers[lv_intTmpPlayer].lv_boolInactive == false) && (gv_recPlayers[lv_intTmpPlayer].lv_boolIsCommentator == false) && (lp_intPlayer != lv_intTmpPlayer) && ((gv_recPlayers[lp_intPlayer].lv_boolPlayingMatch == false) || (gv_recPlayers[lv_intTmpPlayer].lv_boolPlayingMatch == false)))) {
                 lv_intIndex += 1;
-                DialogControlAddItem(gv_recUI.lv_diKickPlayerPulldown, PlayerGroupSingle(lp_intPlayer), PlayerName(lv_intTmpPlayer));
+                DialogControlAddItem(gv_recUI.lv_diKickPlayerPulldown, PlayerGroupSingle(lp_intPlayer), TextWithColor(PlayerName(lv_intTmpPlayer), libNtve_gf_ConvertPlayerColorToColor(PlayerGetColorIndex(lv_intTmpPlayer, false))));
                 gv_recPlayers[lp_intPlayer].lv_intPlayerKickList[lv_intIndex] = lv_intTmpPlayer;
             }
 

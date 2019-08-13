@@ -972,7 +972,6 @@ void InitGlobals () {
     int init_j2;
 
     gv_recGlobals.lv_strMapName = "Thunderbird LE";
-    gv_recGlobals.lv_boolDebugMode = true;
     gv_recGlobals.lv_realResourceTradingCountdown = 213.0;
     gv_recGlobals.lv_intMinimumMatchSeconds = 120;
     gv_recGlobals.lv_realMatchCountdownPeriod = 16.0;
@@ -22642,6 +22641,7 @@ void gf_ClearControlGroupsforPlayer (int lp_intPlayer) {
 void gf_InitializeMatch () {
     // Variable Declarations
     int lv_intPlayer;
+    int lv_intTargetPlayer;
     int lv_intIndex;
     int lv_intIndex2;
     int lv_intTeam;
@@ -22662,6 +22662,8 @@ void gf_InitializeMatch () {
     const int auto58718FC6_ai = 1;
     int autoDEEE449F_ae;
     const int autoDEEE449F_ai = 1;
+    int autoFFF7B6C6_ae;
+    const int autoFFF7B6C6_ai = 1;
     int auto75F8ECFB_ae;
     const int auto75F8ECFB_ai = 1;
     int auto6493F2BB_ae;
@@ -22745,6 +22747,12 @@ void gf_InitializeMatch () {
     autoDEEE449F_ae = gv_recGlobals.lv_iNT_NUM_PLAYERS;
     lv_intPlayer = 0;
     for ( ; ( (autoDEEE449F_ai >= 0 && lv_intPlayer <= autoDEEE449F_ae) || (autoDEEE449F_ai < 0 && lv_intPlayer >= autoDEEE449F_ae) ) ; lv_intPlayer += autoDEEE449F_ai ) {
+        lv_intTargetPlayer = 0;
+        autoFFF7B6C6_ae = gv_recGlobals.lv_iNT_NUM_PLAYERS;
+        lv_intTargetPlayer = 0;
+        for ( ; ( (autoFFF7B6C6_ai >= 0 && lv_intTargetPlayer <= autoFFF7B6C6_ae) || (autoFFF7B6C6_ai < 0 && lv_intTargetPlayer >= autoFFF7B6C6_ae) ) ; lv_intTargetPlayer += autoFFF7B6C6_ai ) {
+            PlayerSetAlliance(lv_intPlayer, c_allianceIdControl, lv_intTargetPlayer, false);
+        }
         PlayerSetAlliance(lv_intPlayer, c_allianceIdControl, lv_intPlayer, true);
         libNtve_gf_SetUpgradeLevelForPlayer(lv_intPlayer, "ProtossAirArmorsLevel3", 0);
         libNtve_gf_SetUpgradeLevelForPlayer(lv_intPlayer, "ProtossAirArmorsLevel2", 0);

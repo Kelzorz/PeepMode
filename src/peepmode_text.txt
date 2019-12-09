@@ -1,3 +1,13 @@
+DISCRIP{TION:
+
+Play or observe 1v1 matches. Graphical team selection, smart cam, event log, live stats, betting, unlockable avatars, global rating, and more.
+
+MAP: <MAP NAME> LE
+
+LOADING SCREEN:
+
+Official PeepMode Discord: https://discord.gg/C4M6NBE
+
 BASIC INFO
 
 

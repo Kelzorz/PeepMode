@@ -51,13 +51,12 @@ Democratic: All players vote on global options; commentator tools disabled
 
 
 Player: Role (Host Only)
-
-Commentator
-
 Player
 
 
 
+
+Commentator
 
 
 ===========

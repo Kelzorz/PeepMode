@@ -1,6 +1,6 @@
 # PeepMode
 
-[![Waffle.io - Columns and their card count](https://badge.waffle.io/Kelzorz/PeepMode.svg?columns=all&style=plastic)](https://waffle.io/Kelzorz/PeepMode) 
+[https://github.com/Kelzorz/PeepMode/issues](https://github.com/Kelzorz/PeepMode/issues)
 
 ## Introduction
 This is the GitHub repository for the StarCraft 2 arcade maps of PeepMode originally created by [jcraigk](https://github.com/jcraigk).  PeepMode allows up to 10 players to participate in round robin style 1v1 matches on the current StarCraft 2 ladder maps.  It supports the Blizzard observer UI for spectators, betting on match results and a store to spend in map currency on various swag.

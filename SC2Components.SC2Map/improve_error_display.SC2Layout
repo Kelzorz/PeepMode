@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Desc>
+    <Frame name="GameUI/UIContainer/FullscreenUpperContainer" type="Frame" file="GameUI">
+	<Frame type="MessageDisplay" name="ErrorDisplay">
+		<AlternateTime val="true"/>
+		<MaxMessages val="10"/>
+		<MessageDuration val="8000"/>
+		<FadeDuration val="6000"/>
+		<Style val="ObjectivePanelFailed"/>
+		<AcceptsMouse val="false"/>
+		<Anchor side="Left" relative="$parent" pos="Min" offset="10"/>
+		<Anchor side="Top" relative="$parent/AlertPanel" pos="Max" offset="-200"/>
+		<Width val="800"/>
+		<Height val="400"/>
+	</Frame>
+    </Frame>
+</Desc>

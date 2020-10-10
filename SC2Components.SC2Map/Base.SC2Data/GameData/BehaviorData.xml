@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CBehaviorClickResponse id="CritterExplode">
+        <Chance value="0"/>
+    </CBehaviorClickResponse>
+    <CBehaviorBuff id="EnemyVision">
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+    </CBehaviorBuff>
+</Catalog>

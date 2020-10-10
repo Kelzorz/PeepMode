@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CGameUI id="Dflt">
+        <FontStyleFileArray value="customstyles.sc2style"/>
+        <CustomLayoutFileArray value="hide_chat_display.SC2Layout"/>
+        <CustomLayoutFileArray value="hide_message_log.SC2Layout"/>
+        <CustomLayoutFileArray value="improve_error_display.SC2Layout"/>
+        <CustomLayoutFileArray value="cinematic_minimap.SC2Layout"/>
+    </CGameUI>
+</Catalog>

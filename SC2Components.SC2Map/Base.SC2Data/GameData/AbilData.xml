@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CAbilEffectTarget id="ApplyVision">
+        <Flags index="AbortOnAllianceChange" value="0"/>
+        <Flags index="AllowMovement" value="1"/>
+        <Flags index="AutoCast" value="1"/>
+        <Flags index="AutoCastOn" value="1"/>
+        <Flags index="BestUnit" value="0"/>
+        <RefundArray index="Approach" value="0"/>
+        <RefundArray index="Prep" value="0"/>
+        <RefundArray index="Cast" value="0"/>
+        <TargetFilters value="Structure;Player,Ally"/>
+        <TargetSorts RequestCount="500"/>
+        <Range value="500"/>
+        <RangeSlop value="100"/>
+        <Arc value="358.9892"/>
+        <ArcSlop value="49.9987"/>
+        <SmartValidatorArray value="ApplyVision"/>
+        <AutoCastFilters value="Structure,Visible;Player,Ally"/>
+        <AutoCastRange value="500"/>
+        <AutoCastValidatorArray value="ApplyVision"/>
+        <PrepTime value="0"/>
+        <CastIntroTime value="0"/>
+        <CastOutroTime value="0"/>
+        <FinishTime value="0"/>
+        <Marker Count="5000"/>
+        <UseMarkerArray index="Approach" value="0"/>
+        <UseMarkerArray index="Prep" value="0"/>
+        <UseMarkerArray index="Cast" value="0"/>
+        <UseMarkerArray index="Channel" value="0"/>
+        <PauseableArray index="Approach" value="0"/>
+        <PauseableArray index="Prep" value="0"/>
+        <PauseableArray index="Cast" value="0"/>
+        <PauseableArray index="Channel" value="0"/>
+        <PauseableArray index="Finish" value="0"/>
+        <PreemptableArray index="Approach" value="0"/>
+        <PreemptableArray index="Prep" value="0"/>
+        <PreemptableArray index="Cast" value="0"/>
+        <PreemptableArray index="Channel" value="0"/>
+        <PreemptableArray index="Finish" value="0"/>
+        <ValidatedArray index="Approach" value="0"/>
+        <ValidatedArray index="Prep" value="0"/>
+        <ValidatedArray index="Cast" value="0"/>
+        <ValidatedArray index="Channel" value="0"/>
+        <ValidatedArray index="Finish" value="1"/>
+        <AcquireAttackers value="1"/>
+    </CAbilEffectTarget>
+</Catalog>

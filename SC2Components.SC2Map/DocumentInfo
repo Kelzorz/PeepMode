@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocInfo>
+    <ModType>
+        <Value>Interface</Value>
+    </ModType>
+    <Icon>
+        <Value>Assets\Textures\peepmode_arcade_logo.tga</Value>
+    </Icon>
+    <Dependencies>
+        <Value>bnet:Void Multi (Mod)/0.0/999,file:Mods/VoidMulti.SC2Mod</Value>
+    </Dependencies>
+    <Screenshot>
+        <File>
+            <Value>Assets\Textures\arcade_screenshot1.dds</Value>
+            <Value>Assets\Textures\arcade_screenshot2.dds</Value>
+            <Value>Assets\Textures\arcade_screenshot3.dds</Value>
+            <Value>Assets\Textures\arcade_screenshot4.dds</Value>
+        </File>
+        <CaptionId>
+            <Value>1</Value>
+            <Value>2</Value>
+            <Value>3</Value>
+            <Value>4</Value>
+        </CaptionId>
+        <Flags>
+            <Value> </Value>
+            <Value> </Value>
+            <Value> </Value>
+            <Value> </Value>
+        </Flags>
+    </Screenshot>
+    <ScreenshotHowToPlay>
+        <File>
+            <Value>Assets\Textures\arcade_instructions1.dds</Value>
+        </File>
+        <CaptionId>
+            <Value>1</Value>
+        </CaptionId>
+        <Flags>
+            <Value> </Value>
+        </Flags>
+    </ScreenshotHowToPlay>
+</DocInfo>

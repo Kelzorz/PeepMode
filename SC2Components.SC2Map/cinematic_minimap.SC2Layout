@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Desc>
+  <!-- Add image behind Minimap -->
+  <Frame type="MinimapPanel" name="GameUI/UIContainer/ConsoleUIContainer/MinimapPanel" file="GameUI">
+        <Frame type="Image" name="CustomBorder">
+            <Anchor side="Top" relative="$parent/Minimap" pos="Min" offset="-14"/>
+            <Anchor side="Bottom" relative="$parent/Minimap" pos="Max" offset="14"/>
+            <Anchor side="Left" relative="$parent/Minimap" pos="Min" offset="-14"/>
+            <Anchor side="Right" relative="$parent/Minimap" pos="Max" offset="14"/>
+            <Texture val="@@UI/StandardGlueButtonNormal"/>
+            <TextureType val="Border"/>
+            <Tiled val="false"/>
+            <StateCount val="2"/>
+      <Enabled val="false"/>
+      <RenderPriority val="100"/>
+      <RenderType val="HDR"/>
+      <Visible val="false"/>
+    </Frame>
+  </Frame>
+  
+  <!-- Add animations -->
+  <Frame type="Frame" name="GameUI/UIContainer/ConsoleUIContainer" file="GameUI">
+    <Frame type="Frame" name="CinematicModeController">
+      <Anchor relative="$parent"/>
+      
+      <Animation name="CinematicMode">
+        <Event event="Start" action="DirectionForward,Play"/>
+        <Event event="End" action="DirectionReverse,Play"/>
+        <!-- make sure ConsoleUIContainer is always visible -->
+        <Controller type="Visibility" end="Pause" frame="$parent">
+          <Key type="Bool" time="0" value="true"/>
+        </Controller>
+        <!-- hide UI frames that usually are visible, but should not -->
+        <Controller type="Visibility" end="Pause" frame="$parent/CommandPanel">
+          <Key type="Bool" time="0" value="true"/>
+          <Key type="Bool" time="0" value="false"/>
+        </Controller>
+        <!--Controller type="Visibility" end="Pause" frame="$parent/CommandPanelAI">
+          <Key type="Bool" time="0" value="true"/>
+          <Key type="Bool" time="0" value="false"/>
+        </Controller-->
+        <Controller type="Visibility" end="Pause" frame="$parent/InfoPanel">
+          <Key type="Bool" time="0" value="true"/>
+          <Key type="Bool" time="0" value="false"/>
+        </Controller>
+        <Controller type="Visibility" end="Pause" frame="$parent/ControlGroupPanel">
+          <Key type="Bool" time="0" value="true"/>
+          <Key type="Bool" time="0" value="false"/>
+        </Controller>
+        <Controller type="Visibility" end="Pause" frame="$parent/MissionTimePanel">
+          <Key type="Bool" time="0" value="true"/>
+          <Key type="Bool" time="0" value="false"/>
+        </Controller>
+        <Controller type="Visibility" end="Pause" frame="$parent/PylonButton">
+          <Key type="Bool" time="0" value="true"/>
+          <Key type="Bool" time="0" value="false"/>
+        </Controller>
+        <Controller type="Visibility" end="Pause" frame="$parent/ArmyButton">
+          <Key type="Bool" time="0" value="true"/>
+          <Key type="Bool" time="0" value="false"/>
+        </Controller>
+        <Controller type="Visibility" end="Pause" frame="$parent/IdleButton">
+          <Key type="Bool" time="0" value="true"/>
+          <Key type="Bool" time="0" value="false"/>
+        </Controller>
+        <!--Controller type="Visibility" end="Pause" frame="$parent/AICommButton">
+          <Key type="Bool" time="0" value="true"/>
+          <Key type="Bool" time="0" value="false"/>
+        </Controller-->
+        <Controller type="Visibility" end="Pause" frame="$parent/AlertDisplay">
+          <Key type="Bool" time="0" value="true"/>
+          <Key type="Bool" time="0" value="false"/>
+        </Controller>
+        <Controller type="Visibility" end="Pause" frame="$parent/TriggerWindowPanel">
+          <Key type="Bool" time="0" value="true"/>
+          <Key type="Bool" time="0" value="false"/>
+        </Controller>
+        <Controller type="Visibility" end="Pause" frame="$parent/InventoryPanel">
+          <Key type="Bool" time="0" value="true"/>
+          <Key type="Bool" time="0" value="false"/>
+        </Controller>
+        <Controller type="Visibility" end="Pause" frame="$parent/$parent/ConsolePanel/InfopanelModel">
+          <Key type="Bool" time="0" value="true"/>
+          <Key type="Bool" time="0" value="false"/>
+        </Controller>
+        <Controller type="Visibility" end="Pause" frame="$parent/$parent/ConsolePanel/MinimapModel">
+          <Key type="Bool" time="0" value="true"/>
+          <Key type="Bool" time="0" value="false"/>
+        </Controller>
+        <Controller type="Visibility" end="Pause" frame="$parent/$parent/ConsolePanel/PortraitPanel">
+          <Key type="Bool" time="0" value="true"/>
+          <Key type="Bool" time="0" value="false"/>
+        </Controller>
+        <Controller type="Visibility" end="Pause" frame="$parent/$parent/ConsolePanel/CommandPanelModel">
+          <Key type="Bool" time="0" value="true"/>
+          <Key type="Bool" time="0" value="false"/>
+        </Controller>
+        <!-- todo edit anchors of stubs - visibility does not matter to them -->
+        <Controller type="Anchor" end="Pause" side="Bottom" relative="false" frame="$parent/$parent/ConsolePanel/MinimapStub">
+          <Key type="Curve" time="0" value="0" out="Slow"/>
+          <Key type="Curve" time="0.2" value="999" out="Slow"/>
+        </Controller>
+        <Controller type="Anchor" end="Pause" side="Bottom" relative="false" frame="$parent/$parent/ConsolePanel/InfoStub">
+          <Key type="Curve" time="0" value="0" out="Slow"/>
+          <Key type="Curve" time="0.2" value="999" out="Slow"/>
+        </Controller>
+        <Controller type="Anchor" end="Pause" side="Bottom" relative="false" frame="$parent/$parent/ConsolePanel/CommandStub">
+          <Key type="Curve" time="0" value="0" out="Slow"/>
+          <Key type="Curve" time="0.2" value="999" out="Slow"/>
+        </Controller>
+        <!-- move menu bar -->
+                <Controller type="Anchor" end="Pause" side="Bottom" relative="false" frame="$parent/$parent/FullscreenUpperContainer/MenuBarConsoleAnchor">
+                    <Key type="Curve" time="0" value="-267" out="Slow"/>
+                    <Key type="Curve" time=".2" value="0" in="Slow"/>
+                </Controller>
+        <!-- move minimap -->
+                <Controller type="Anchor" end="Pause" side="Top" relative="false" frame="$parent/MinimapPanel/Minimap">
+                    <Key type="Curve" time="0" value="25" out="Slow"/>
+                    <Key type="Curve" time=".2" value="41" in="Slow"/>
+                </Controller>
+                <Controller type="Anchor" end="Pause" side="Left" relative="false" frame="$parent/MinimapPanel/Minimap">
+                    <Key type="Curve" time="0" value="31" out="Slow"/>
+                    <Key type="Curve" time=".2" value="0" in="Slow"/>
+                </Controller>
+        <!-- hide minimap buttons -->
+        <Controller type="Visibility" end="Pause" frame="$parent/MinimapPanel/PingButton">
+          <Key type="Bool" time="0" value="true"/>
+          <Key type="Bool" time="0" value="false"/>
+        </Controller>
+        <Controller type="Visibility" end="Pause" frame="$parent/MinimapPanel/ColorButton">
+          <Key type="Bool" time="0" value="true"/>
+          <Key type="Bool" time="0" value="false"/>
+        </Controller>
+        <Controller type="Visibility" end="Pause" frame="$parent/MinimapPanel/TerrainButton">
+          <Key type="Bool" time="0" value="true"/>
+          <Key type="Bool" time="0" value="false"/>
+        </Controller>
+        <Controller type="Visibility" end="Pause" frame="$parent/MinimapPanel/CustomBorder">
+          <Key type="Bool" time="0" value="false"/>
+          <Key type="Bool" time="0" value="true"/>
+        </Controller>
+        <!-- move portrait panel to fix issue with screen mode trigger action -->
+                <Controller type="Anchor" end="Pause" side="Bottom" relative="false" frame="$parent/$parent/ConsolePanel/PortraitPanel">
+                    <Key type="Curve" time="0" value="-2" out="Slow"/>
+                    <Key type="Curve" time=".2" value="999" in="Slow"/>
+                </Controller>
+      </Animation>
+    </Frame>
+    
+  </Frame>
+  
+</Desc>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CActorUnit id="CustomDecalCow" parent="GenericUnitCritter" unitName="CustomDecalCow">
+        <On Terms="Effect.Suicide.Start" Send="Create CritterExplosion"/>
+        <Model value="Cow"/>
+        <BuildModel value="Cow"/>
+        <DeathArray index="Normal" ModelLink="CowDeath" SoundLink="Zerg_ExplosionSmall"/>
+        <PlacementModel value="Cow"/>
+        <StandAnimTurnTime value="0.5"/>
+        <StandAnimTurnTimeScaleMin value="0.500000"/>
+        <WalkAnimMoveSpeed value="1"/>
+        <BarOffset value="40"/>
+        <BarWidth value="36"/>
+        <GroupIcon>
+            <Image value="Assets\Textures\Wireframe-critter-cow.dds"/>
+        </GroupIcon>
+        <SoundArray index="What" value="Cow_What"/>
+        <UnitFlags index="ShowBlobShadow" value="0"/>
+        <UnitIcon value="Assets\Textures\Wireframe-critter-cow.dds"/>
+        <Wireframe>
+            <Image value="Assets\Textures\Wireframe-critter-cow.dds"/>
+        </Wireframe>
+    </CActorUnit>
+    <CActorUnit id="CustomDecalMuta" parent="GenericUnitStandard" unitName="CustomDecalMuta">
+        <HostSiteOps Ops="SOpBankerMutalisk"/>
+        <DeathArray index="Normal" ModelLink="MutaliskDeath" SoundLink="Mutalisk_Explode"/>
+        <PortraitModel value="MutaliskPortrait"/>
+        <WalkAnimMoveSpeed value="2"/>
+        <BarOffset value="60"/>
+        <BarWidth value="50"/>
+        <GroupIcon>
+            <Image value="Assets\Textures\Wireframe-Zerg-Mutalisk.dds"/>
+        </GroupIcon>
+        <HeroIcon value="Assets\Textures\btn-unit-zerg-mutalisk.dds"/>
+        <LifeArmorIcon value="Assets\Textures\btn-upgrade-zerg-flyercarapace-level0.dds"/>
+        <SoundArray index="Ready" value="Mutalisk_Ready"/>
+        <SoundArray index="What" value="Mutalisk_What"/>
+        <SoundArray index="Yes" value="Mutalisk_Yes"/>
+        <SoundArray index="Attack" value="Mutalisk_Attack"/>
+        <SoundArray index="Pissed" value="Mutalisk_Pissed"/>
+        <UnitFlags index="ShowBlobShadow" value="0"/>
+        <UnitIcon value="Assets\Textures\btn-unit-zerg-mutalisk.dds"/>
+        <Wireframe>
+            <Image value="Assets\Textures\Wireframe-Zerg-Mutalisk.dds"/>
+        </Wireframe>
+    </CActorUnit>
+    <CActorSimple id="TriggerPerPlayerActorAgent">
+        <On Terms="Signal.*.Show; FlyerHelper All" Target="_TriggerTarget" Send="SetVisibility 1"/>
+        <On Terms="Signal.*.Hide; FlyerHelper All" Target="_TriggerTarget" Send="SetVisibility"/>
+        <On Terms="Signal.*.Destroy_Immediate; FlyerHelper All" Target="_TriggerTarget" Send="Destroy Immediate"/>
+        <On Terms="Signal.*.Destroy_Normal; FlyerHelper All" Target="_TriggerTarget" Send="Destroy"/>
+    </CActorSimple>
+</Catalog>

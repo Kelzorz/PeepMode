@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CEffectApplyBehavior id="ApplyVision">
+        <ValidatorArray index="0" value="ApplyVision"/>
+        <Behavior value="EnemyVision"/>
+    </CEffectApplyBehavior>
+</Catalog>

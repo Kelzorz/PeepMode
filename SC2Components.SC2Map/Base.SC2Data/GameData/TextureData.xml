@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CTexture id="XukeSourceCrown">
+        <File value="Assets\Textures\crown.dds"/>
+        <Slot value="main.diffuse"/>
+    </CTexture>
+    <CTexture id="XukeSourceDecalAtomic">
+        <File value="Assets\Textures\campaign_decal_0002_01.dds"/>
+        <Slot value="main.diffuse"/>
+    </CTexture>
+    <CTexture id="XukeSourceDecalBearPaw">
+        <File value="Assets\Textures\decal_terran_0034_01.dds"/>
+        <Slot value="main.diffuse"/>
+    </CTexture>
+    <CTexture id="XukeSourceDecalBrokenSkull">
+        <File value="Assets\Textures\decal_terran_0002_01.dds"/>
+        <Slot value="main.diffuse"/>
+    </CTexture>
+    <CTexture id="XukeSourceDecalCrescent">
+        <File value="Assets\Textures\decal_terran_0011_01.dds"/>
+        <Slot value="main.diffuse"/>
+    </CTexture>
+    <CTexture id="XukeSourceDecalCyborgSkull">
+        <File value="Assets\Textures\decal_terran_0052_01.dds"/>
+        <Slot value="main.diffuse"/>
+    </CTexture>
+    <CTexture id="XukeSourceDecalDemonSkull">
+        <File value="Assets\Textures\decal_terran_0027_01.dds"/>
+        <Slot value="main.diffuse"/>
+    </CTexture>
+    <CTexture id="XukeSourceDecalDragon">
+        <File value="Assets\Textures\decal_terran_0037_01.dds"/>
+        <Slot value="main.diffuse"/>
+    </CTexture>
+    <CTexture id="XukeSourceDecalFernBlade">
+        <File value="Assets\Textures\decal_terran_0018_01.dds"/>
+        <Slot value="main.diffuse"/>
+    </CTexture>
+    <CTexture id="XukeSourceDecalKnives">
+        <File value="Assets\Textures\decal_terran_0059_01.dds"/>
+        <Slot value="main.diffuse"/>
+    </CTexture>
+    <CTexture id="XukeSourceDecalLeaf">
+        <File value="Assets\Textures\decal_terran_0048_01.dds"/>
+        <Slot value="main.diffuse"/>
+    </CTexture>
+    <CTexture id="XukeSourceDecalLion">
+        <File value="Assets\Textures\decal_terran_0025_01.dds"/>
+        <Slot value="main.diffuse"/>
+    </CTexture>
+    <CTexture id="XukeSourceDecalMurlocalypseNow">
+        <File value="Assets\Textures\decal_terran_0031_01.dds"/>
+        <Slot value="main.diffuse"/>
+    </CTexture>
+    <CTexture id="XukeSourceDecalPanda">
+        <File value="Assets\Textures\decal_terran_0004_01.dds"/>
+        <Slot value="main.diffuse"/>
+    </CTexture>
+    <CTexture id="XukeSourceDecalSwan">
+        <File value="Assets\Textures\decal_terran_0047_01.dds"/>
+        <Slot value="main.diffuse"/>
+    </CTexture>
+    <CTexture id="XukeSourceDecalTriBlades">
+        <File value="Assets\Textures\decal_terran_0014_01.dds"/>
+        <Slot value="main.diffuse"/>
+    </CTexture>
+    <CTexture id="XukeSourceDecalYinYangYin">
+        <File value="Assets\Textures\decal_terran_0044_01.dds"/>
+        <Slot value="main.diffuse"/>
+    </CTexture>
+    <CTexture id="XukeSourceDice">
+        <Slot value="main.diffuse"/>
+    </CTexture>
+    <CTexture id="XukeSourcePeepmodeEye">
+        <Slot value="main.diffuse"/>
+    </CTexture>
+    <CTexture id="XukeSourceProtossLogo">
+        <Slot value="main.diffuse"/>
+    </CTexture>
+    <CTexture id="XukeSourceTerranLogo">
+        <Slot value="main.diffuse"/>
+    </CTexture>
+    <CTexture id="XukeSourceZergLogo">
+        <Slot value="main.diffuse"/>
+    </CTexture>
+</Catalog>

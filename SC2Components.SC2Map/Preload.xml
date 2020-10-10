@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Preload>
+<Asset path="assets\textures\icon-mineral.dds" Type="Image"/>
+<Asset path="assets\textures\btn-techupgrade-terran-combatshield.dds" Type="Image"/>
+<Asset path="assets\textures\icon-mineral-protoss.dds" Type="Image"/>
+<Asset path="assets\textures\btn-ability-terran-nuclearstrike.dds" Type="Image"/>
+<Asset path="assets\textures\namepanel_title_vs.dds" Type="Image"/>
+<Asset path="assets\textures\resource_trading_zerg.dds" Type="Image"/>
+<Asset path="assets\textures\btn-techupgrade-terran-microfusionreactor.dds" Type="Image"/>
+<Asset path="assets\textures\namepanel_wing_left.dds" Type="Image"/>
+<Asset path="assets\textures\btn-ability-terran-chronoriftdevice.dds" Type="Image"/>
+<Asset path="assets\textures\ui_tutorial_cameraicon2.dds" Type="Image"/>
+<Asset path="assets\textures\black.dds" Type="Image"/>
+<Asset path="assets\textures\namepanel_color_red_left.dds" Type="Image"/>
+<Asset path="assets\textures\icon-gas-terran.dds" Type="Image"/>
+<Asset path="assets\textures\btn-techupgrade-terran-dualfusionwelders.dds" Type="Image"/>
+<Asset path="assets\textures\buildingplane_green1.dds" Type="Image"/>
+<Asset path="assets\textures\btn-techupgrade-terran-nuclearstrike.dds" Type="Image"/>
+<Asset path="assets\textures\vortexwarp2.dds" Type="Image"/>
+<Asset path="assets\textures\btn-command-terran-buildadvancedstructure.dds" Type="Image"/>
+<Asset path="assets\textures\resource_trading_protoss.dds" Type="Image"/>
+<Asset path="assets\textures\namepanel_color_blue_right.dds" Type="Image"/>
+<Asset path="assets\textures\namepanel_orb.dds" Type="Image"/>
+<Asset path="assets\textures\namepanel_orb_glow.dds" Type="Image"/>
+<Asset path="assets\textures\ui_gamemenu_topbuttons_normalpressed.dds" Type="Image"/>
+<Asset path="assets\textures\blank.dds" Type="Image"/>
+<Asset path="assets\textures\vortexwarp2.lvl0" Type="Image"/>
+<Asset path="assets\textures\icon-gas-terran-nobg.dds" Type="Image"/>
+<Asset path="assets\textures\ui_chatbaricons_protoss_allies.dds" Type="Image"/>
+<Asset path="assets\textures\ui_btn_aicommand_commandcard_assault.dds" Type="Image"/>
+<Asset path="assets\textures\chip.dds" Type="Image"/>
+<Asset path="assets\textures\cursor-target-allied.dds" Type="Image"/>
+<Asset path="assets\textures\btn-upgrade-terran-behemothreactor.dds" Type="Image"/>
+<Asset path="assets\textures\zergblankportrait_static.dds" Type="Image"/>
+<Asset path="assets\textures\icon-supply-protoss.dds" Type="Image"/>
+<Asset path="assets\textures\ui_gamemenu_topbuttons_normaloverpressedover.dds" Type="Image"/>
+<Asset path="assets\textures\btn-ability-terran-land.dds" Type="Image"/>
+<Asset path="assets\textures\_base_extrastuff_col.dds" Type="Image"/>
+<Asset path="assets\textures\black_dots.dds" Type="Image"/>
+<Asset path="assets\textures\btn-ability-terran-snipe-color.dds" Type="Image"/>
+<Asset path="assets\textures\icon-highyieldmineral-zerg.dds" Type="Image"/>
+<Asset path="assets\textures\map_overlay.dds" Type="Image"/>
+<Asset path="assets\textures\icon-time-protoss.dds" Type="Image"/>
+<Asset path="assets\textures\btn-techupgrade-terran-shapedhull.dds" Type="Image"/>
+<Asset path="assets\textures\btn-ability-terran-liftoff.dds" Type="Image"/>
+<Asset path="assets\textures\icon-gas-protoss.dds" Type="Image"/>
+<Asset path="assets\textures\resource_trading_terran.dds" Type="Image"/>
+<Asset path="assets\textures\namepanel_race_protoss.dds" Type="Image"/>
+<Asset path="assets\textures\buildingplane_green1.lvl0" Type="Image"/>
+<Asset path="assets\textures\towbar_left_yellow.dds" Type="Image"/>
+<Asset path="assets\textures\namepanel_wing_right.dds" Type="Image"/>
+<Asset path="assets\textures\crown.dds" Type="Image"/>
+<Asset path="assets\textures\ui_chatbaricons_zerg_allies.dds" Type="Image"/>
+<Asset path="assets\textures\icon-gas-zerg.dds" Type="Image"/>
+<Asset path="assets\textures\icon-energy-zerg.dds" Type="Image"/>
+<Asset path="assets\textures\yellow_circle.dds" Type="Image"/>
+<Asset path="assets\textures\icon-1v1-zerg.dds" Type="Image"/>
+<Asset path="assets\textures\fade_right.dds" Type="Image"/>
+<Asset path="assets\textures\_base_extrastuff_col.lvl0" Type="Image"/>
+<Asset path="assets\textures\btn-ability-protoss-hallucination.dds" Type="Image"/>
+<Asset path="assets\textures\icon-supply-terran_nobg.dds" Type="Image"/>
+<Asset path="assets\textures\icon-mineral-nobg.dds" Type="Image"/>
+<Asset path="assets\textures\btn-ability-protoss-shieldbattery.dds" Type="Image"/>
+<Asset path="assets\textures\peepmode_logo_medium.dds" Type="Image"/>
+<Asset path="assets\textures\btn-tips-credit.dds" Type="Image"/>
+<Asset path="assets\textures\fade_left.dds" Type="Image"/>
+<Actor id="SYSTEM_ActorConfig"/>
+<Actor id="Aiur_CityBuilding_Tower" Variations="1"/>
+<Actor id="Aiur_City_GenericBuilding" Variations="1"/>
+<Actor id="Aiur_City_Platform" Variations="1"/>
+<Actor id="Aiur_City_Ramps" Variations="0,2"/>
+<Actor id="Aiur_CliffDoodads_Medium" Variations="0,1,2,3"/>
+<Actor id="Aiur_Cliff_City_Waterfall_Abandoned" Variations="0"/>
+<Actor id="Aiur_PortLight" Variations="1"/>
+<Actor id="Aiur_Pyramid_Tower_Medium" Variations="3"/>
+<Actor id="Aiur_Road_Window" Variations="5"/>
+<Actor id="ChiseledRockEx1" Variations="0,2,4"/>
+<Actor id="InvisibleWalkablePlatform4x4"/>
+<Actor id="ProtossBase_Wall" Variations="0,1,3"/>
+<Actor id="ProtossCratesDoodad" Variations="2"/>
+<Actor id="ProtossSanctum"/>
+<Actor id="ProtossWarpInPadFlat"/>
+<Actor id="Protoss_Base_Console_Small" Variations="1"/>
+<Actor id="Protoss_Base_Force_Field_Pillar" Variations="4,5"/>
+<Actor id="Protoss_Base_GroundTrim" Variations="1,2,3,4,5,10,11,13,14,18,19"/>
+<Actor id="Protoss_Base_Pads" Variations="1"/>
+<Actor id="Protoss_Base_RoadEntry" Variations="1"/>
+<Actor id="Protoss_Base_TechPillar" Variations="1,7"/>
+<Actor id="PurificationDesert_BlastCrator" Variations="1"/>
+<Actor id="PurificationDesert_Large_Rock" Variations="0,1,2,3,4,6,7"/>
+<Actor id="PurificationDesert_Medium_Rock_Group" Variations="0,1,2,3,4,5,6,7"/>
+<Actor id="PurificationDesert_Small_Rock_Group" Variations="0,1,2,3"/>
+<Actor id="Slayn_Tree" Variations="0,1"/>
+<Actor id="StarShipAdun_Hanger_Bay_Pieces" Variations="0,3"/>
+<Actor id="StarShipAdun_Platforms" Variations="2"/>
+<Actor id="StarShipAdun_StasisPods" Variations="0,1"/>
+<Actor id="StarShipAdun_TeleportPad"/>
+<Actor id="StarshipHallTrim" Variations="0,1"/>
+<Actor id="ZerusWaterPlant" Variations="0,1,2,3,4,5,6,7,8,9,10"/>
+<Actor id="AiurProtossBuildingsSmall" Variations="1"/>
+<Actor id="InvisibleCurtain"/>
+<Actor id="CharAshWeather"/>
+<Actor id="FireMedium"/>
+<Actor id="FogMist"/>
+<Actor id="FogBlue"/>
+<Actor id="Fireworks"/>
+<Actor id="LavaSplash"/>
+<Actor id="MonlythTree" Variations="0,1,2,3"/>
+<Actor id="PlantsWasteland" Variations="1,5,7,11"/>
+<Actor id="RainSprinkle"/>
+<Actor id="ShakurasRockColumn"/>
+<Actor id="WindRough"/>
+<Actor id="WindEmitterBrownMedium"/>
+<Actor id="WindEmitterBrownSmall"/>
+<Actor id="WindEmitterMedium"/>
+<Actor id="Logo_LeaguePrimary"/>
+<Actor id="Logo_LeagueSecondary"/>
+<Actor id="Logo_PlayerPrimary"/>
+<Actor id="Logo_PlayerSecondary"/>
+<Effect id="SpawnMutantLarvaApplySpawnBehavior"/>
+<Race id="Neut"/>
+<Race id="Terr"/>
+<Race id="Zerg"/>
+<Race id="Prot"/>
+<Sound id="CommandCenter_Movement2"/>
+<Sound id="UI_BnetCountdown"/>
+<Sound id="UI_MiniMapPing"/>
+<Sound id="UI_PopUpWindowEnters"/>
+<Sound id="UI_MissionLaunchMenu_Disappear"/>
+<Sound id="ChatPing"/>
+<Soundtrack id="PeepModeSoundtrack"/>
+<Terrain id="MarSaraEx2"/>
+<Unit id="Mothership"/>
+<Unit id="CommandCenter"/>
+<Unit id="SupplyDepot"/>
+<Unit id="Barracks"/>
+<Unit id="EngineeringBay"/>
+<Unit id="SCV"/>
+<Unit id="Medivac"/>
+<Unit id="Raven"/>
+<Unit id="Gateway"/>
+<Unit id="Interceptor"/>
+<Unit id="Lair"/>
+<Unit id="Hive"/>
+<Unit id="GreaterSpire"/>
+<Unit id="Zergling"/>
+<Unit id="PlanetaryFortress"/>
+<Unit id="OrbitalCommand"/>
+<Unit id="WarpGate"/>
+<Unit id="XelNagaTower"/>
+<Unit id="RichVespeneGeyser"/>
+<Unit id="KarakMale"/>
+<Unit id="KarakFemale"/>
+<Unit id="MineralField" Variations="1,3,5,6,9"/>
+<Unit id="MineralField750" Variations="2,5,6,8,9"/>
+<Unit id="ShapeCashLarge"/>
+<Unit id="UnbuildablePlatesDestructible" Variations="4"/>
+<Unit id="ProtossVespeneGeyser"/>
+<Unit id="DestructibleRockEx14x4"/>
+<Unit id="DestructibleRockEx16x6"/>
+<Unit id="PurifierMineralField" Variations="0,1,3,6,7,8,9"/>
+<Unit id="PurifierMineralField750" Variations="0,2,3,4,5,6,7,8,9"/>
+<Unit id="CustomDecalCow"/>
+<Unit id="CustomDecalMuta"/>
+<Unit id="ApplyVision"/>
+</Preload>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CSound id="JelloPlanet" parent="MUSIC">
+        <AssetArray File="JelloPlanet.mp3" FacialGroup=""/>
+        <Volume value="-4.000000,-4.000000"/>
+    </CSound>
+    <CSound id="UI_ChatMessageReceived">
+        <Chance value="0"/>
+    </CSound>
+    <CSound id="ChatPing" parent="Combat">
+        <AssetArray File="Assets\Sounds\Uni\UI\UI_Select01.wav"/>
+        <Flags index="Ignorable" value="1"/>
+        <Flags index="Purgable" value="0"/>
+        <Category value="UI"/>
+        <Mode value="2D"/>
+        <ReverbBalance Room="-10000"/>
+        <SpeakerMix index="BackLeft" value="0.000000"/>
+        <SpeakerMix index="BackRight" value="0.000000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <Volume value="-16.000000,-16.000000"/>
+    </CSound>
+</Catalog>

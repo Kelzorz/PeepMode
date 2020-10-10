@@ -1,4 +1,4 @@
-DISCRIP{TION:
+DESCRIPTION:
 
 Play or observe 1v1 matches. Graphical team selection, smart cam, event log, live stats, betting, unlockable avatars, global rating, and more.
 
@@ -25,7 +25,7 @@ Melee Spectator - PeepMode
 
 
 
-Melee Spectator: https://satanja.github.io/PeepMode
+Melee Spectator: https://github.com/Kelzorz/PeepMode
 
 Commentator Mode: Commentators set global options; commentator tools enabled
 
@@ -86,4 +86,4 @@ ADVANCED
 
 See in-game Help (F12) for detailed instructions and list of commands
 
-See https://satanja.github.io/PeepMode for video tutorials and discussions
+See https://github.com/Kelzorz/PeepMode for video tutorials and discussions
